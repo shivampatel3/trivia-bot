@@ -1,14 +1,26 @@
 {
+  "name": "trivia-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivampatel3/trivia-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivampatel3/trivia-bot/issues"
+  },
+  "homepage": "https://github.com/shivampatel3/trivia-bot#readme",
   "dependencies": {
-    "discord.js": "^13.8.1",
-    "dotenv": "^16.0.1"
+    "discord.js": "^13.8.1"
   },
   "devDependencies": {
-    "@types/node": "^18.0.0",
-    "ts-node": "^10.8.1",
-    "typescript": "^4.7.4"
-  },
-  "scripts": {
-    "start": "ts-node src/Bot.ts"
+    "eslint": "^8.19.0"
   }
 }

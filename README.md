@@ -1,1 +1,1 @@
-# trivia-bot
+Trivia Bot
